@@ -92,7 +92,8 @@ def main():
     ignore_list = [
         'index.html',
         'go-release-reference.tgz',
-        'go-release-archive.tgz'
+        'go-release-archive.tgz',
+        'frozen_incoming_data'
     ]
     LOG.info('Will ignore: "' + '", "'.join(ignore_list) + '"')
 
